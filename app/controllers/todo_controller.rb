@@ -14,7 +14,8 @@ class TodoController < ApplicationController
 
   def update
     @todo = Todo.all.find(params[:todo_id])
-    @todo.update_attribute(isCompleted, params[:isCompleted])
+    @todo.update_attribute(:isCompleted, params[:isCompleted])
+    render json: @todo
   end
 
 end

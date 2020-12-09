@@ -25,6 +25,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 # CUSTOM
 gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
 gem 'active_model_serializers', '~> 0.10.0'
+gem 'rack-cors', '~> 1.1', '>= 1.1.1'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
